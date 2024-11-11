@@ -61,8 +61,21 @@ Choose the correct answer:
     D. It ignores any foreign key constraint errors
 _Answer is A. It makes sure that if a particular title is already in the table, there are no duplicate rows inserted_
 ### 9.	What do we generally avoid in a many-to-many junction table?
-    A. An AUTOINCREMENT primary key column
-    B. A logical key
-    C. Two foreign keys
-    D. Data items specific to the many-to-many relationship
-_Answer is A. An AUTOINCREMENT primary key column_
+    ☐ An AUTOINCREMENT primary key column
+    ☐ A logical key
+    ☐ Two foreign keys
+    ☐ Data items specific to the many-to-many relationship
+_Answer is An AUTOINCREMENT primary key column and Data items specific to the many-to-many relationship_
+### 10.	For the following Python code to work, what must be added to the title column in the CREATE TABLE statement for the Course table: 
+        cur.execute('''INSERT OR IGNORE INTO Course (title)
+            VALUES ( ? )''', ( title, ) )
+        cur.execute('SELECT id FROM Course WHERE title = ? ', 
+            (title, ))
+        course_id = cur.fetchone()[0]
+Choose the correct answer:
+
+    A. An AUTOINCREMENT indication
+    B. A PRIMARY KEY indication
+    C. A NOT NULL constraint
+    D. A UNIQUE constraint
+_Answer is D. A UNIQUE constraint_
