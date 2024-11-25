@@ -8,15 +8,15 @@ University of Michigan
 This Specialization builds on the success of the Python for Everybody course and will introduce fundamental programming concepts including data structures, networked application program interfaces, and databases, using the Python programming language. In the Capstone Project, you’ll use the technologies learned throughout the Specialization to design and create your own  applications for data retrieval, processing, and visualization.
 
 ### 1.	Course 01 - Programming for Everybody (Getting Started with Python)
-   
-   •	Module 01- Chapter 01: Why we program?
-   •	Module 02 – Unit: Installing Python
-   •	Module 03 – Chapter 01: Why we program? (continued)
-   •	Module 04 – Chapter 02: Variables and Expressions
-   •	Module 05 – Chapter 03: Conditional Code
-   •	Module 06 – Chapter 04: Functions
-   •	Module 07 – Chapter 05: Loops and Iteration
-  	
+
+    •	Module 01 – Chapter 01: Why we program?
+    •	Module 02 – Unit: Installing Python
+    •	Module 03 – Chapter 01: Why we program? (continued)
+    •	Module 04 – Chapter 02: Variables and Expressions
+    •	Module 05 – Chapter 03: Conditional Code
+    •	Module 06 – Chapter 04: Functions
+    •	Module 07 – Chapter 05: Loops and Iteration
+
 ### 2.	Course 02 - Python Data Structures
    
     •	Module 01 – Chapter 06: Strings
